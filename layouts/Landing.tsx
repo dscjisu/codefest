@@ -19,19 +19,19 @@ function Landing() {
 
     return (
         <>
-            <div className="min-h-screen min-w-screen lg:container mx-auto lg:p-10 pt-10">
+            <div className=" min-w-screen lg:container mx-auto lg:p-10 pt-10">
                 <div className="flex flex-row lg:gap-2 items-center justify-center">
-                    <div className="container mx-auto  h-[30rem]">
+                    <div className="container mx-auto">
                         <div className="flex flex-row justify-center items-center h-full">
                             <div className="flex flex-col gap-1 px-5 basis-1/2">
                                 <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center lg:text-left pb-4">CodeFest 2023</h1>
-                                <p className="font-thin text-left py-2">
-                                    CodeFest is a 3-days Tech Festival organized by the Computer Science and Engineering Department of JIS University Kolkata. It is a platform for students to showcase their technical skills and creativity. The hackathon is a great opportunity for students to learn, network, and build something new.
+                                <p className="font-semibold text-lg text-left py-2">
+                                    Unleash your inner coder/Techie and join the revolution
                                 </p>
                                 <p>
                                     <span className="font-bold">Theme:</span> <span className="font-thin">To be announced soon</span>
-                                    <ul className="ml-5">
-                                        <li className="font-thin list-disc">Prizes worth 7.5 Lakhs</li>
+                                    <ul className="ml-5 text-gray-400">
+                                        <li className="font-thin list-disc">Prizes worth <span className="font-bold">7.5 Lakhs</span></li>
                                         <li className="font-thin list-disc">Certificate of Participation</li>
                                         <li className="font-thin list-disc">Internship Opportunities</li>
                                         <li className="font-thin list-disc">Job Opportunities</li>
