@@ -1,7 +1,12 @@
 
+
 function Timeline() {
     return (
-        <div>Timeline</div>
+        <div>
+            <h1>Timeline</h1>
+            <h2>Starting Soon </h2>
+
+        </div>
     )
 }
 

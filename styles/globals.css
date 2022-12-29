@@ -26,3 +26,7 @@ a {
         background: black;
     }
 }
+
+.about-laptop {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
