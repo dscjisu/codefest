@@ -28,13 +28,17 @@ function Landing() {
                                 <p className="font-semibold text-lg text-left py-2">
                                     Unleash your inner coder/Techie and join the revolution
                                 </p>
+                                <p className="font-semibold text-lg text-left py-2">
+                                    <span className="font-bold">Date:</span> <span className="font-thin">To be announced soon</span>
+                                </p>
                                 <p>
-                                    <span className="font-bold">Theme:</span> <span className="font-thin">To be announced soon</span>
+                                    <span className="font-bold">Theme:</span> <span className="font-thin"></span>
                                     <ul className="ml-5 text-gray-400">
                                         <li className="font-thin list-disc">Prizes worth <span className="font-bold">7.5 Lakhs</span></li>
-                                        <li className="font-thin list-disc">Certificate of Participation</li>
-                                        <li className="font-thin list-disc">Internship Opportunities</li>
-                                        <li className="font-thin list-disc">Job Opportunities</li>
+                                        <li className="font-thin list-disc">Hackathon</li>
+                                        <li className="font-thin list-disc">Workshop</li>
+                                        <li className="font-thin list-disc">Tech Talks</li>
+                                        <li className="font-thin list-disc">Networking</li>
 
                                     </ul>
                                 </p>
@@ -56,6 +60,9 @@ function Landing() {
 
                                 />
                             </div>
+                        </div>
+                        <div>
+
                         </div>
                     </div>
                 </div>
