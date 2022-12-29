@@ -1,6 +1,6 @@
 import About from '../layouts/About';
 import CommunityPartner from '../layouts/CommunityPartner';
-import Faqs from '../layouts/Faqs';
+import Faq from '../layouts/Faqs';
 import Landing from '../layouts/Landing';
 import Organisation from '../layouts/Organisation';
 import SeeYou from '../layouts/SeeYou';
@@ -11,6 +11,7 @@ import Timeline from '../layouts/Timeline';
 
 import OrganisationData from './../content/Organisation.json';
 import SpeakerData from './../content/Speaker.json';
+import FaqsData from './../content/faqs.json';
 
 
 
@@ -26,10 +27,14 @@ interface IOrganisationdata {
   image: string,
   link: string
 }
-
+interface IFaqs {
+  question: string,
+  answer: string
+}
 interface IProps {
   Speakers: ISpeakerdata[],
-  Organisations: IOrganisationdata[]
+  Organisations: IOrganisationdata[],
+  Faqs: IFaqs[]
 }
 
 
@@ -37,20 +42,22 @@ export async function getStaticProps() {
 
   const Speakers = SpeakerData;
   const Organisations = OrganisationData;
+  const Faqs = FaqsData;
 
 
   return {
     props: {
       Speakers,
-      Organisations
+      Organisations,
+      Faqs
     }, // will be passed to the page component as props
   }
 }
 
-const Home = ({ Speakers, Organisations }: IProps) => {
+const Home = ({ Speakers, Organisations, Faqs }: IProps) => {
   return (
     <>
-      <main className='container mx-auto'>
+      <main>
         <Landing />
         <About />
         <Timeline />
@@ -58,7 +65,7 @@ const Home = ({ Speakers, Organisations }: IProps) => {
         <Organisation organisationData={Organisations} />
         <Sponsors />
         <CommunityPartner />
-        <Faqs />
+        <Faq FaqsData={Faqs} />
         <SeeYou />
       </main>
     </>
