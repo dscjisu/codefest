@@ -1,5 +1,6 @@
 import About from '../layouts/About';
 import CommunityPartner from '../layouts/CommunityPartner';
+import Countdown from '../layouts/CountDown';
 import Faq from '../layouts/Faqs';
 import Landing from '../layouts/Landing';
 import Organisation from '../layouts/Organisation';
@@ -68,6 +69,7 @@ const Home = ({ Speakers, Organisations, Faqs, Partner }: IProps) => {
     <>
       <main>
         <Landing />
+        <Countdown />
         <About />
         <Timeline />
         <Sponsors />
