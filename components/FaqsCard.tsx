@@ -12,7 +12,7 @@ interface IFaqs {
 
 function FaqsCard({ question, answer }: IFaqs) {
     return (
-        <Accordion className='!bg-black !border-2 !rounded-xl !border-pink-600 !text-white !w-full'>
+        <Accordion className='!bg-black !border-2 !shadow-lg !shadow-pink-800 !rounded-xl !border-pink-600 !text-white !w-full'>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon className='text-white' />}
                 aria-controls="panel1a-content"
@@ -20,9 +20,9 @@ function FaqsCard({ question, answer }: IFaqs) {
             >
                 <Typography>{question}</Typography>
             </AccordionSummary>
+            <hr className='text-yellow-400 bg-black' />
             <AccordionDetails>
-                <Typography>
-                    &gt; {answer}
+                <Typography dangerouslySetInnerHTML={{ __html: answer }}>
                 </Typography>
             </AccordionDetails>
         </Accordion>
