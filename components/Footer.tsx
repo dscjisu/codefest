@@ -1,5 +1,8 @@
 import Image from 'next/image';
-
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 // import FooterAnimation from '../assets/animation_gdsc.webp'
 
 
@@ -52,12 +55,12 @@ function Footer() {
 
 
                 </div>
-                <div className='grid  grid-cols-2  lg:gap-2 gap-4 text-white  p-10 lg:place-items-center'>
+                <div className='flex flex-row justify-between  lg:gap-2 gap-4 text-white  p-10 lg:place-items-center'>
                     <div className='sm:col-span-1 col-span-2'>
-                        <span className=' text-white font-mono font-medium'>© 2023 CodeFest 2023 | Google Developer Student Club JIS University</span>
+                        <span className=' text-white font-mono font-medium'>Made with ❤️ By CodeFest Team</span>
                     </div>
                     <div className='sm:col-span-1 col-span-2'>
-                        <span className=' text-white font-mono font-medium'>Made with ❤️ By Hackers</span>
+
                     </div>
 
                 </div>

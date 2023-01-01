@@ -1,7 +1,8 @@
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import Devfolio from './Devfolio'
 
 function NavBar() {
 
@@ -12,19 +13,9 @@ function NavBar() {
         { name: 'Timeline', href: '#Timeline' },
         { name: 'Speakers', href: '#Speaker' },
         { name: 'Sponsors', href: '#Sponsors' },
+        { name: 'CommunityPartner', href: '#CommunityPartner' },
         { name: 'FaQs', href: '#Faq' },
     ]
-
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = 'https://apply.devfolio.co/v2/sdk.js';
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, []);
 
     return (
         <>
@@ -55,7 +46,7 @@ function NavBar() {
                     </defs>
                 </svg>
             </div>
-            <div className="px-6 pt-2 lg:m-8">
+            <div className="px-6  py-6 lg:m-8">
                 <div>
                     <nav className="flex h-9 items-center justify-between " aria-label="Global">
                         <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
@@ -89,21 +80,23 @@ function NavBar() {
                                 href="#"
                                 className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                             >
-                                <div
-                                    className="apply-button rounded-2xl bg-black"
-                                    data-hackathon-slug="codefest2023"
-                                    data-button-theme="light"
-                                />
+                                <Devfolio />
                             </a>
                         </div>
                     </nav>
                     <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                        <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden">
+                        <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden opacity-90">
                             <div className="flex h-9 items-center justify-between">
                                 <div className="flex">
                                     <a href="#" className="-m-1.5 p-1.5">
                                         <span className="sr-only">Your Company</span>
-                                        <Image src="/favicon.ico" width={50} height={50} alt="codefest-logo" />
+                                        <Image
+                                            src="/Codefest.png"
+                                            width={150}
+                                            height={50}
+                                            alt="codefest-logo"
+                                            className='opacity-30'
+                                        />
                                     </a>
                                 </div>
                                 <div className="flex">
@@ -119,7 +112,7 @@ function NavBar() {
                             </div>
                             <div className="mt-6 flow-root">
                                 <div className="-my-6 divide-y divide-gray-500/10">
-                                    <div className="space-y-2 py-6">
+                                    <div className="space-y-2 py-6 ">
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}
@@ -137,11 +130,7 @@ function NavBar() {
                                     href="#"
                                     className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6  shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                                 >
-                                    <div
-                                        className="apply-button rounded-2xl bg-black"
-                                        data-hackathon-slug="codefest2023"
-                                        data-button-theme="light"
-                                    />
+                                    <Devfolio />
                                 </a>
                             </div>
                         </Dialog.Panel>
