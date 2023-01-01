@@ -8,11 +8,10 @@ import Speaker from '../layouts/Speaker';
 import Sponsors from '../layouts/Sponsor';
 import Timeline from '../layouts/Timeline';
 // content 
-
+import CommunityPartnerData from './../content/Community Partner.json';
 import OrganisationData from './../content/Organisation.json';
 import SpeakerData from './../content/Speaker.json';
 import FaqsData from './../content/faqs.json';
-
 
 
 interface ISpeakerdata {
@@ -27,6 +26,13 @@ interface IOrganisationdata {
   image: string,
   link: string
 }
+
+interface ICommPartnerData {
+  name: string,
+  image: string,
+  link: string,
+}
+
 interface IFaqs {
   question: string,
   answer: string
@@ -34,7 +40,8 @@ interface IFaqs {
 interface IProps {
   Speakers: ISpeakerdata[],
   Organisations: IOrganisationdata[],
-  Faqs: IFaqs[]
+  Faqs: IFaqs[],
+  Partner: ICommPartnerData[]
 }
 
 
@@ -43,28 +50,30 @@ export async function getStaticProps() {
   const Speakers = SpeakerData;
   const Organisations = OrganisationData;
   const Faqs = FaqsData;
+  const Partner = CommunityPartnerData;
 
 
   return {
     props: {
       Speakers,
       Organisations,
-      Faqs
+      Faqs,
+      Partner
     }, // will be passed to the page component as props
   }
 }
 
-const Home = ({ Speakers, Organisations, Faqs }: IProps) => {
+const Home = ({ Speakers, Organisations, Faqs, Partner }: IProps) => {
   return (
     <>
       <main>
         <Landing />
         <About />
         <Timeline />
-        <Speaker speakerData={Speakers} />
-        <Organisation organisationData={Organisations} />
         <Sponsors />
-        <CommunityPartner />
+        <Organisation organisationData={Organisations} />
+        <Speaker speakerData={Speakers} />
+        <CommunityPartner partnerData={Partner} />
         <Faq FaqsData={Faqs} />
         <SeeYou />
       </main>

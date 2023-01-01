@@ -11,7 +11,7 @@ interface SpeakerData {
 function Speaker({ speakerData }: SpeakerData) {
     return (
         <>
-            <section id="About" className="container mx-auto lg:p-10 p-2">
+            <section id="Speaker" className="container mx-auto lg:p-10 p-2">
                 <div className="relative flex flex-col px-5">
                     <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center pb-4">Speaker</h1>
                     <p className="font-semibold text-gray-600  lg:px-40 lg:text-center text-lg">
