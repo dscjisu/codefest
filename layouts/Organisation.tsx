@@ -3,16 +3,16 @@ import OrganisationCard from "../components/OrganisationCard"
 
 function Organisation({ organisationData }: any) {
     return (
-        <section id="About" className="container mx-auto lg:p-10 p-2">
+        <section id="" className="container mx-auto lg:p-10 p-2">
             <div className="relative flex flex-col px-5">
                 <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center pb-4">Organisation</h1>
-                <p className="font-semibold text-gray-600  lg:px-40 lg:text-center text-lg">
+                <p className="font-semibold text-gray-600  lg:px-40 text-clip text-lg">
                     We would like to extend our heartfelt gratitude to
                     these organizations for their generous support and
                     contributions.
                 </p>
                 <div className="pb-10" />
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:px-48 justify-items-center content-center">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 lg:px-80 justify-items-center content-center gap-2">
                     {
                         organisationData.map((Organisation: any, index: number) => {
                             return (

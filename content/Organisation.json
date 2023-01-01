@@ -1,16 +1,12 @@
-[{
-        "name": "Jis University Kolkata",
-        "image": "/organisation/jisuniversity.jpg",
-        "link": "https://www.jisuniversity.ac.in/"
-    },
-    {
-        "name": "Code For Community",
-        "image": "/organisation/codeforcommunity.png",
-        "link": "https://www.dscjisu.in"
-    },
-    {
-        "name": "Google Developer Student Clubs JIS University",
-        "image": "/organisation/dscjisu.png",
-        "link": "https://www.dscjisu.in"
-    }
+[
+  {
+    "name": "Jis University Kolkata",
+    "image": "/organisation/jisuniversity.jpg",
+    "link": "https://www.jisuniversity.ac.in/"
+  },
+  {
+    "name": "Google Developer Student Clubs JIS University",
+    "image": "/organisation/dscjisu.png",
+    "link": "https://www.dscjisu.in"
+  }
 ]

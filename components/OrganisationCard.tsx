@@ -19,7 +19,7 @@ function OrganisationCard({ name, image, link }: IOrganisation) {
                     window.open(link, "_blank")
                 }
             }>
-            <div className="flex justify-center items-center" title={name}>
+            <div className="flex justify-center items-center hover:scale-125 transition-all ease-linear duration-200" title={name}>
                 <Image className="rounded bg-cover"
                     src={image}
                     alt={name}
