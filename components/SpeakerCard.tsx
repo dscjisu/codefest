@@ -20,10 +20,10 @@ function SpeakerCard({ name, subtitle, bio, image, tags }: SpeakerData) {
             </div>
             <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-center">{name}</div>
-                <p className="text-gray-700 text-base text-clip text-center">
+                <p className="text-pink-500 text-base text-clip text-center">
                     {subtitle}
                 </p>
-                <p className="text-clip">
+                <p className="text-center">
                     {bio}
                 </p>
             </div>
