@@ -2,7 +2,6 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import { useState } from 'react'
-import Devfolio from './Devfolio'
 
 function NavBar() {
 
@@ -13,13 +12,12 @@ function NavBar() {
         { name: 'Timeline', href: '#Timeline' },
         { name: 'Speakers', href: '#Speaker' },
         { name: 'Sponsors', href: '#Sponsors' },
-        { name: 'CommunityPartner', href: '#CommunityPartner' },
         { name: 'FaQs', href: '#Faq' },
     ]
 
     return (
         <>
-            <div className=" text-white  absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
+            <div className=" text-white  absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-18rem]">
                 <svg
                     className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
                     viewBox="0 0 1155 678"
@@ -46,12 +44,12 @@ function NavBar() {
                     </defs>
                 </svg>
             </div>
-            <div className="px-6  py-6 lg:m-8">
+            <div className="px-10  py-6  container mx-auto min-w-screen">
                 <div>
                     <nav className="flex h-9 items-center justify-between " aria-label="Global">
                         <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
                             <a href="#" className="-m-1.5 p-1.5">
-                                <span className="sr-only">Your Company</span>
+                                <span className="sr-only">CodeFest 2023</span>
                                 <Image src="/Codefest.png"
                                     width={150} height={150}
                                     alt="codefest-logo"
@@ -68,20 +66,12 @@ function NavBar() {
                                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                             </button>
                         </div>
-                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-12">
                             {navigation.map((item) => (
-                                <a key={item.name} href={item.href} className="font-semibold font-mono text-white hover:text-blue-600">
+                                <a key={item.name} href={item.href} className="font-semibold font-mono  hover:text-blue-600">
                                     {item.name}
                                 </a>
                             ))}
-                        </div>
-                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-                            <a
-                                href="#"
-                                className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                            >
-                                <Devfolio />
-                            </a>
                         </div>
                     </nav>
                     <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -124,14 +114,6 @@ function NavBar() {
                                         ))}
                                     </div>
                                 </div>
-                            </div>
-                            <div className="lg:hidden flex lg:min-w-0 lg:flex-1 lg:justify-end">
-                                <a
-                                    href="#"
-                                    className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6  shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                                >
-                                    <Devfolio />
-                                </a>
                             </div>
                         </Dialog.Panel>
                     </Dialog>
