@@ -49,7 +49,7 @@ function Speaker({ speakerData }: SpeakerData) {
                             <button
                                 onClick={
                                     () => {
-                                        window.open("https://forms.gle/mf9xpuYBonqdnhQPA", "_blank")
+                                        window.open("https://forms.gle/PinJMdPWDFfkHnS48", "_blank")
                                     }
                                 }
                                 className="bg-yellow-500 w-40 p-2 rounded-lg shadow-lg shadow-yellow-300 active:shadow-black  active:shadow-inner">
