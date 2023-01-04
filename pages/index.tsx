@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import About from '../layouts/About';
 import CommunityPartner from '../layouts/CommunityPartner';
 import Countdown from '../layouts/CountDown';
@@ -65,6 +66,18 @@ export async function getStaticProps() {
 }
 
 const Home = ({ Speakers, Organisations, Faqs, Partner }: IProps) => {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <>
       <main>

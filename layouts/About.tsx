@@ -18,7 +18,7 @@ function About() {
                             The plethora of fun and excitement is waiting for you from 6th Jan 2023.
                         </p>
                     </div>
-                    <div className="basis-1/2 hidden lg:flex justify-center items-center lg:ml-96">
+                    <div className="basis-1/2 hidden lg:flex justify-end items-center ">
                         <Image
                             src="/layout/laptop.png"
                             alt="laptop"

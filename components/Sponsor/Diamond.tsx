@@ -7,7 +7,7 @@ function Diamond() {
             <h1
                 className='lg:text-3xl text-2xl text-center font-bold text-purple-500'
             >
-                Diamond SPONSORS
+                DIAMOND SPONSORS
             </h1>
             <div className="grid lg:grid-cols-2 px-10 gap-10">
                 {

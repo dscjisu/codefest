@@ -22,7 +22,7 @@ function Speaker({ speakerData }: SpeakerData) {
                         their insights and expertise will provide valuable
                         and engaging content for attendees.
                     </p>
-                    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 justify-items-center content-center">
+                    <div className={`grid ${speakerData.length >= 10 ? "lg:grid-cols-10" : `lg:grid-cols-${speakerData.length}`} grid-cols-1 gap-4 justify-items-center content-center`}>
                         {
                             speakerData.map((speaker: any, index: number) => {
                                 return (

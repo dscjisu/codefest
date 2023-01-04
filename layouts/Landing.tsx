@@ -34,7 +34,7 @@ function Landing() {
                                     <Devfolio />
                                 </div>
                             </div>
-                            <div className="hidden lg:flex justify-center items-center w-1/2">
+                            <div className="hidden lg:flex justify-center items-center w-1/2 overflow-hidden">
                                 <Image
                                     src="/landing-image.jpg"
                                     alt="landing"
@@ -43,6 +43,22 @@ function Landing() {
                                     className="rounded-full"
 
                                 />
+                                {/* <Image
+                                    src="/girl waving.gif"
+                                    alt="landing"
+                                    width={500}
+                                    height={500}
+                                    className="rounded-full"
+
+                                />
+                                <Image
+                                    src="/boy working and checklist.gif"
+                                    alt="landing"
+                                    width={500}
+                                    height={500}
+                                    className="rounded-full"
+
+                                /> */}
                             </div>
                         </div>
                     </div>
