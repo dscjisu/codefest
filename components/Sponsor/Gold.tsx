@@ -5,13 +5,13 @@ import GoldSponsor from '../../content/Sponsors/Gold.json'
 
 function Gold() {
     return (
-        <div className="lg:mx-10 flex justify-center flex-col gap-10 py-5  rounded-2xl shadow-inner shadow-gray-500 drop-shadow-2xl Gold_sponsor ">
+        <div className="lg:mx-10 flex justify-center flex-col gap-10 py-5  rounded-2xl shadow shadow-yellow-500  Gold_sponsor ">
             <h1
                 className='lg:text-3xl text-2xl text-center font-bold text-yellow-500'
             >
                 GOLD SPONSORS
             </h1>
-            <div className="grid lg:grid-cols-2 px-10 gap-2 place-content-center justify-items-center">
+            <div className="grid lg:grid-cols-1 px-10 gap-2 place-content-center justify-items-center">
                 {
                     GoldSponsor.map((item, index) => {
                         return (

@@ -21,7 +21,7 @@ function Landing() {
                                     <span className="font-bold">Date:</span> <span className="font-thin">To be announced soon</span>
                                 </p>
                                 <span className="px-2">
-                                    <span className="font-bold">Theme:</span> <span className="font-thin">To be announced soon</span>
+                                    <span className="font-bold">Theme:</span> <span className="font-thin"> No Restriction</span>
                                     <ul className="ml-5 text-gray-400 pt-5">
                                         <li className="font-thin list-disc">Prizes worth : <span className="font-bold">9+ Lakhs</span></li>
                                         <li className="font-thin list-disc">Hackathon : <span className="font-bold">3+ Theme</span></li>
@@ -36,11 +36,11 @@ function Landing() {
                             </div>
                             <div className="hidden lg:flex justify-center items-center w-1/2 overflow-hidden">
                                 <Image
-                                    src="/landing-image.jpg"
+                                    src="/landing-rocket.png"
                                     alt="landing"
                                     width={500}
                                     height={500}
-                                    className="rounded-full"
+                                    className=" -rotate-12"
 
                                 />
                                 {/* <Image

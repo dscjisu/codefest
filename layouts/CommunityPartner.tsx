@@ -10,8 +10,8 @@ function CommunityPartner({ partnerData }: any) {
                 <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center pb-4">Community Partners</h1>
                 <div className="pb-10" />
                 <div
-                    className={`grid ${partnerData.length >= 10 ? "lg:grid-cols-10" : `lg:grid-cols-${partnerData.length}`} 
-                    md:grid-cols-5 grid-cols-3 lg:px-28 place-content-center justify-items-center gap-5`}>
+                    className={`grid ${partnerData.length >= 5 ? "lg:grid-cols-5 md:grid-cols-3 grid-cols-1 " : `lg:grid-cols-${partnerData.length}`} 
+                    lg:px-80 place-content-center justify-items-center gap-5`}>
                     {
                         partnerData?.map((Organisation: any, index: number) => {
                             return (

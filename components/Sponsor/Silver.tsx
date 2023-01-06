@@ -6,7 +6,7 @@ import SilverSponsor from '../../content/Sponsors/Silver.json'
 
 function Silver() {
     return (
-        <div className="lg:mx-10 flex justify-center flex-col gap-10 py-5  rounded-2xl shadow-inner shadow-gray-500 drop-shadow-2xl silver_sponsor ">
+        <div className="lg:mx-10 flex justify-center flex-col gap-10 py-5  rounded-2xl shadow shadow-gray-500  silver_sponsor ">
             <h1
                 className='lg:text-3xl text-2xl text-center font-bold text-gray-500'
             >
@@ -21,7 +21,7 @@ function Silver() {
                                     <Image className="rounded-lg bg-cover"
                                         src={item.image}
                                         alt={item.name}
-                                        width={150} height={150} />
+                                        width={100} height={150} />
                                 </Link>
 
                             </div>

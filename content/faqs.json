@@ -28,6 +28,6 @@
     },
     {
         "question": "What is the Code of Conduct?",
-        "answer": "The Code of Conduct is a set of rules that all participants must follow during the hackathon."
+        "answer": "The Code of Conduct is a set of rules that all participants must follow during the hackathon. <a href='https://devfolio.co/code-of-conduct' target='_blank' className='!text-blue-400'> Refer this doc for code of conduct </a>"
     }
 ]

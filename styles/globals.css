@@ -44,35 +44,35 @@ a {
 .silver_sponsor {
     /* filter: grayscale(100%); */
     /* filter: brightness(0.5); */
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     background: linear-gradient(-20deg, rgba(0, 0, 0, .1), 75%, rgba(145, 143, 145, 0.8));
-    box-shadow: inset 0 0 5px rgba(145, 143, 145, 0.8), 0 0 15px rgba(145, 143, 145, 0.8);
+    /* box-shadow: inset 0 0 5px rgba(145, 143, 145, 0.8), 0 0 15px rgba(145, 143, 145, 0.8); */
 }
 
 .Title_sponsor {
     /* filter: brightness(0.5); */
-    border: 2px solid gray;
+    /* border: 2px solid rgb(255, 0, 0); */
     background: linear-gradient(-15deg, rgba(0, 0, 0, .1), 90%, rgb(255, 0, 0));
-    box-shadow: inset 0 0 5px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);
+    /* box-shadow: inset 0 0 5px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0); */
 }
 
 .Diamond_sponsor {
     /* filter: brightness(0.5); */
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     background: linear-gradient(-15deg, rgba(0, 0, 0, .1), 90%, rgb(247, 0, 255));
-    box-shadow: inset 0 0 5px rgb(247, 0, 255), 0 0 15px rgb(247, 0, 255);
+    /* box-shadow: inset 0 0 5px rgb(247, 0, 255), 0 0 15px rgb(247, 0, 255); */
 }
 
 .Platinum_sponsor {
     /* filter: brightness(0.5); */
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     background: linear-gradient(-15deg, rgba(0, 0, 0, .1), 90%, rgb(0, 255, 123));
-    box-shadow: inset 0 0 5px rgb(0, 255, 123), 0 0 15px rgb(0, 255, 123);
+    /* box-shadow: inset 0 0 5px rgb(0, 255, 123), 0 0 15px rgb(0, 255, 123); */
 }
 
 .Gold_sponsor {
     /* filter: brightness(0.5); */
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     background: linear-gradient(-15deg, rgba(0, 0, 0, .1), 90%, rgb(255, 242, 0));
-    box-shadow: inset 0 0 5px rgb(255, 242, 0), 0 0 15px rgb(255, 242, 0);
+    /* box-shadow: inset 0 0 5px rgb(255, 242, 0), 0 0 15px rgb(255, 242, 0); */
 }

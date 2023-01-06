@@ -1,11 +1,5 @@
 [{
-        "name": "Codedamn",
-        "link": "https://www.codedamn.com/",
-        "image": "/sponsor/gold/codedamn.png"
-    },
-    {
-        "name": "GiveMyCertificate",
-        "link": "https://givemycertificate.com/",
-        "image": "/sponsor/gold/givemycertificate.png"
-    }
-]
+    "name": "GiveMyCertificate",
+    "link": "https://givemycertificate.com/",
+    "image": "/sponsor/gold/givemycertificate.png"
+}]

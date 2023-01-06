@@ -3,7 +3,7 @@ import Link from 'next/link'
 import DiamondSponsor from '../../content/Sponsors/Diamond.json'
 function Diamond() {
     return (
-        <div className="lg:mx-10 flex justify-center flex-col gap-10 py-5  rounded-2xl shadow-inner shadow-gray-500 drop-shadow-2xl Diamond_sponsor ">
+        <div className="lg:mx-10 flex justify-center flex-col gap-10 py-5  rounded-2xl shadow shadow-purple-500 Diamond_sponsor ">
             <h1
                 className='lg:text-3xl text-2xl text-center font-bold text-purple-500'
             >

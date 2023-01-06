@@ -4,7 +4,7 @@ import PlatinumSponsor from '../../content/Sponsors/Platinum.json'
 
 function Platinum() {
     return (
-        <div className="lg:mx-10 flex justify-center flex-col gap-10  py-5  rounded-2xl shadow-inner shadow-gray-500 drop-shadow-2xl Platinum_sponsor ">
+        <div className="lg:mx-10 flex justify-center flex-col gap-10  py-5  rounded-2xl shadow shadow-emerald-600 Platinum_sponsor ">
             <h1
                 className='text-3xl text-center font-bold text-emerald-600'
             >
