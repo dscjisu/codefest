@@ -84,7 +84,7 @@ const Home = ({ Speakers, Organisations, Faqs, Partner }: IProps) => {
         <Landing />
         <Countdown />
         <About />
-        <Timeline />
+        {/* <Timeline /> */}
         <Sponsors />
         <Organisation organisationData={Organisations} />
         <Speaker speakerData={Speakers} />

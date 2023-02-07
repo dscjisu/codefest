@@ -9,7 +9,7 @@ function Timeline() {
                 <div className='grid grid-cols-4 gap-4 lg:px-36 justify-items-center place-content-center'>
                 </div>
                 <p className="font-semibold text-gray-600 lg:text-center  lg:px-40 text-clip text-lg">
-                    Wait.....
+                    check here
                 </p>
             </div>
             <h1 className="text-center">
