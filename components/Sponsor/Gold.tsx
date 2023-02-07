@@ -11,7 +11,7 @@ function Gold() {
             >
                 GOLD SPONSORS
             </h1>
-            <div className="grid lg:grid-cols-3 px-10 gap-2 place-content-center justify-items-center">
+            <div className="grid lg:grid-cols-2 px-10 gap-2 place-content-center justify-items-center">
                 {
                     GoldSponsor.map((item, index) => {
                         return (
