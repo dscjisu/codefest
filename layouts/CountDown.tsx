@@ -9,7 +9,7 @@ function Countdown() {
     useEffect(() => {
         const countdownInterval = setInterval(() => {
             // Set the date we're counting down to
-            const countDownDate = new Date('Feb 15, 2023 06:00:00').getTime();
+            const countDownDate = new Date('March 17, 2023 00:00:00').getTime();
 
             // Get today's date and time
             const now = new Date().getTime();

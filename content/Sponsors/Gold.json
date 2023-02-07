@@ -2,4 +2,9 @@
     "name": "GiveMyCertificate",
     "link": "https://givemycertificate.com/",
     "image": "/sponsor/gold/givemycertificate.png"
+},
+{
+    "name": "Digital Ocean",
+    "link": "https://www.digitalocean.com/",
+    "image": "/sponsor/gold/digitalocean.png"
 }]
