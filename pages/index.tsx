@@ -5,18 +5,26 @@ import Countdown from '../layouts/CountDown';
 import Faq from '../layouts/Faqs';
 import Landing from '../layouts/Landing';
 import Organisation from '../layouts/Organisation';
-import SeeYou from '../layouts/SeeYou';
+import Organiser from '../layouts/Organiser';
 import Speaker from '../layouts/Speaker';
 import Sponsors from '../layouts/Sponsor';
-import Timeline from '../layouts/Timeline';
 // content 
 import CommunityPartnerData from './../content/Community Partner.json';
 import OrganisationData from './../content/Organisation.json';
 import SpeakerData from './../content/Speaker.json';
 import FaqsData from './../content/faqs.json';
+import OrganiserData from './../content/organiser.json';
 
 
 interface ISpeakerdata {
+  name: string,
+  subtitle: string,
+  bio: string,
+  image: string,
+  tags: string[]
+}
+
+interface IOrganiserdata {
   name: string,
   subtitle: string,
   bio: string,
@@ -43,7 +51,8 @@ interface IProps {
   Speakers: ISpeakerdata[],
   Organisations: IOrganisationdata[],
   Faqs: IFaqs[],
-  Partner: ICommPartnerData[]
+  Partner: ICommPartnerData[],
+  Organisers: IOrganiserdata[]
 }
 
 
@@ -53,6 +62,7 @@ export async function getStaticProps() {
   const Organisations = OrganisationData;
   const Faqs = FaqsData;
   const Partner = CommunityPartnerData;
+  const Organisers = OrganiserData
 
 
   return {
@@ -60,12 +70,13 @@ export async function getStaticProps() {
       Speakers,
       Organisations,
       Faqs,
-      Partner
+      Partner,
+      Organisers
     }, // will be passed to the page component as props
   }
 }
 
-const Home = ({ Speakers, Organisations, Faqs, Partner }: IProps) => {
+const Home = ({ Speakers, Organisations, Faqs, Partner, Organisers }: IProps) => {
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -86,6 +97,7 @@ const Home = ({ Speakers, Organisations, Faqs, Partner }: IProps) => {
         <About />
         {/* <Timeline /> */}
         <Sponsors />
+        <Organiser organiserData={Organisers} />
         <Organisation organisationData={Organisations} />
         <Speaker speakerData={Speakers} />
         <CommunityPartner partnerData={Partner} />
