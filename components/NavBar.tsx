@@ -10,7 +10,7 @@ function NavBar() {
 
     const navigation = [
         { name: 'About', href: '#About' },
-        { name: 'Timeline', href: '#Timeline' },
+        { name: 'Organiser', href: '#Organiser' },
         { name: 'Speakers', href: '#Speaker' },
         { name: 'Sponsors', href: '#Sponsors' },
         { name: 'FaQs', href: '#Faq' },
