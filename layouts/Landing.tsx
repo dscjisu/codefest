@@ -30,7 +30,7 @@ function Landing() {
                                         <li className="font-thin list-disc">Networking </li>
                                     </ul>
                                 </span>
-                                <div className="flex flex-row gap-2 pt-10">
+                                <div className="flex flex-row gap-2 pt-10 justify-center items-center">
                                     <Devfolio />
                                 </div>
                             </div>
