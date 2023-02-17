@@ -1,0 +1,22 @@
+{
+  "name": "CodeFest 2023",
+  "short_name": "CodeFest",
+  "description": "CodeFest is a 3-days Tech Festival organized by theComputer Science and Engineering Department of JIS University Kolkata. It is a platform for students to showcase their technical skills and creativity. The hackathon is a great opportunity for students to learn, network, and build something new. It was put together by a large group of tech enthusiasts from Google Developer Student Club (GDSC) JIS University and Code For Community. The main goal is to grow our local community and give hackers an unforgettable experience. The plethora of fun and excitement is waiting for you from 15th Feb 2023.",
+  "icons": [
+    {
+      "src": "/Codefest.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Codefest.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
