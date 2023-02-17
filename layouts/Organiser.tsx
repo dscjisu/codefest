@@ -17,7 +17,7 @@ function Organiser({ organiserData }: OrganiserData) {
                     <br />
                     We are deeply grateful to our organizers for their commitment and enthusiasm, and we know that their efforts will make this year's CodeFest an unforgettable experience for all participants.
                 </p>
-                <div className={`grid ${organiserData.length >= 10 ? "lg:grid-cols-10" : `lg:grid-cols-${organiserData.length}`} grid-cols-2 gap-4 justify-items-center content-center`}>
+                <div className={`grid ${organiserData.length >= 10 ? "lg:grid-cols-10" : `lg:grid-cols-${organiserData.length}`} sm:grid-cols-2 grid-cols-1 gap-4 justify-items-center content-center`}>
                     {
                         organiserData.map((organiser: any, index: number) => {
                             return (
