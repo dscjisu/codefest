@@ -5,9 +5,6 @@ interface SpeakerData {
     speakerData: any
 }
 
-
-
-
 function Speaker({ speakerData }: SpeakerData) {
     return (
         <>
@@ -37,27 +34,6 @@ function Speaker({ speakerData }: SpeakerData) {
                                 )
                             })
                         }
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <p className="font-semibold text-gray-600  lg:px-40 text-center ">
-                            Interested in speaking at CodeFest? We&apos;re always looking for
-                            <span className="text-gray-400 text-lg"> Speakers </span>
-                            to join us!
-                            <br />
-                        </p>
-                        <div className="flex flex-col justify-center items-center p-5">
-                            <button
-                                onClick={
-                                    () => {
-                                        window.open("https://forms.gle/PinJMdPWDFfkHnS48", "_blank")
-                                    }
-                                }
-                                className="bg-yellow-500 w-40 p-2 rounded-lg shadow-lg shadow-yellow-300 active:shadow-black  active:shadow-inner">
-                                <span className="font-semibold text-black">
-                                    Apply as a Speaker
-                                </span>
-                            </button>
-                        </div>
                     </div>
                 </div>
             </section>

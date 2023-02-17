@@ -29,7 +29,7 @@ function SpeakerCard({ name, subtitle, bio, image, tags }: SpeakerData) {
             </div>
             <div className="px-6 pt-4 pb-2 flex justify-center">
                 {
-                    tags.map((tag: any, index: number) => {
+                    tags?.map((tag: any, index: number) => {
                         return (
                             <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
                         )
