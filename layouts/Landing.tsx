@@ -18,7 +18,7 @@ function Landing() {
                                     Unleash your inner coder/Techie and join the revolution
                                 </p>
                                 <p className="font-semibold text-lg text-left py-2 px-2">
-                                    <span className="font-bold">Date:</span> <span className="font-thin">17th March - 19th March</span>
+                                    <span className="font-bold">Date:</span> <span className="font-thin">17th March - 21st March</span>
                                 </p>
                                 <span className="px-2">
                                     <span className="font-bold">Theme:</span> <span className="font-thin"> No Restriction</span>
