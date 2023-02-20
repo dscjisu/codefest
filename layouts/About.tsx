@@ -9,7 +9,7 @@ function About() {
                     <div className="basis-1/2 flex justify-center items-center">
                         <p className="font-semibold text-gray-600">
                             CodeFest is a 5-days Tech Festival organized by the
-                            <span className="text-gray-400 text-lg">Computer Science and Engineering Department of JIS University Kolkata</span>.
+                            <span className="text-gray-400 text-lg"> Computer Science and Engineering Department of JIS University Kolkata</span>.
                             It is a platform for students to showcase their technical skills and creativity.
                             The hackathon is a great opportunity for students to learn, network, and build something new.
                             <br />
