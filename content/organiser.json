@@ -1,15 +1,15 @@
 [
   {
-    "name": "Hrittik Roy",
-    "subtitle": "Devops Guy",
-    "bio": "Github Campus Expert | @google Venkat Scholar | @digitalocean Navigator | Gold @microsoft Learn Student Ambassador",
-    "image": "https://avatars.githubusercontent.com/u/67012359?v=4"
-  },
-  {
     "name": "Abhishek Kushwaha",
     "subtitle": "Full Stack Web Developer",
     "bio": "@google DSC Lead | @scaler Content Writer",
     "image": "https://avatars.githubusercontent.com/u/86338762?v=4"
+  },
+  {
+    "name": "Hrittik Roy",
+    "subtitle": "Devops Guy",
+    "bio": "Github Campus Expert | @google Venkat Scholar | @digitalocean Navigator | Gold @microsoft Learn Student Ambassador",
+    "image": "https://avatars.githubusercontent.com/u/67012359?v=4"
   },
   {
     "name": "Protyusha Chatterjee",

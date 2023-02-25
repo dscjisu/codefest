@@ -14,7 +14,6 @@ function Faq({ FaqsData }: any) {
                             <span className="text-pink-800 capitalize"> hackers </span>  here and there must be many questions
                             buzzing in your mind. But don&apos;t worry, we got you covered! 💪
                             Go through these <span className="text-pink-800 capitalize"> FAQs </span>  and you&apos;ll get most of your queries solved.
-                            <span className="text-yellow-600 capitalize"> In case you have more questions,  ping us at the bottom-right corner </span> .
                         </p>
                     </div>
                     <div className="flex flex-col justify-center items-center lg:p-10 p-2">

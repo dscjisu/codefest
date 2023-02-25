@@ -9,7 +9,7 @@ function Countdown() {
     useEffect(() => {
         const countdownInterval = setInterval(() => {
             // Set the date we're counting down to
-            const countDownDate = new Date('March 17, 2023 00:00:00').getTime();
+            const countDownDate = new Date('March 10, 2023 00:00:00').getTime();
 
             // Get today's date and time
             const now = new Date().getTime();
@@ -31,7 +31,7 @@ function Countdown() {
         <>
             <section id="CommunityPartner" className="container mx-auto lg:px-10 p-2 py-20">
                 <div className="relative flex flex-col px-5">
-                    <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center pb-4">Launching Soon <span className='animate-pulse'> ⏲️ </span> </h1>
+                    <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center pb-4">Registration Closing in...</h1>
                     <div className="pb-10" />
                     <div className='grid grid-cols-4 gap-4 lg:px-36 justify-items-center place-content-center'>
                         <div className='shadow-2xl shadow-pink-600 flex flex-col  justify-center items-center font-mono text-pink-600 rounded-lg bg-yellow-400 lg:w-60 p-1 md:w-20  min-w-full'>

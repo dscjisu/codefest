@@ -13,7 +13,7 @@ function About() {
                             It is a platform for students to showcase their technical skills and creativity.
                             The hackathon is a great opportunity for students to learn, network, and build something new.
                             <br />
-                            It was put together by a large group of tech enthusiasts from <span className="text-gray-400">Google Developer Student Club (GDSC) JIS University</span> and <span className="text-gray-400">Code For Community</span>.
+                            It was put together by a large group of tech enthusiasts from <span className="text-gray-400">Google Developer Student Club (GDSC) JIS University</span>.
                             The main goal is to grow our local community and give hackers an unforgettable experience.
                             The plethora of fun and excitement is waiting for you from 17th March 2023.
                         </p>

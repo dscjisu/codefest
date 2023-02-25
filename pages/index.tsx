@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import About from '../layouts/About';
+import CodeOfConduct from '../layouts/CodeOfConduct';
 import CommunityPartner from '../layouts/CommunityPartner';
 import Countdown from '../layouts/CountDown';
 import Faq from '../layouts/Faqs';
@@ -10,10 +11,10 @@ import Speaker from '../layouts/Speaker';
 import Sponsors from '../layouts/Sponsor';
 // content 
 import CommunityPartnerData from './../content/Community Partner.json';
-import OrganisationData from './../content/Organisation.json';
-import SpeakerData from './../content/Speaker.json';
 import FaqsData from './../content/faqs.json';
+import OrganisationData from './../content/Organisation.json';
 import OrganiserData from './../content/organiser.json';
+import SpeakerData from './../content/Speaker.json';
 
 
 interface ISpeakerdata {
@@ -102,6 +103,7 @@ const Home = ({ Speakers, Organisations, Faqs, Partner, Organisers }: IProps) =>
         <Speaker speakerData={Speakers} />
         <CommunityPartner partnerData={Partner} />
         <Faq FaqsData={Faqs} />
+        <CodeOfConduct />
         {/* <SeeYou /> */}
       </main>
     </>
