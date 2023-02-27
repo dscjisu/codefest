@@ -3,9 +3,9 @@ function CodeOfConduct() {
 
     return (
         <section id="CodeofConduct" className="container mx-auto lg:p-10 p-2 py-20">
-            <div className="relative flex flex-col px-5">
-                <h1 className="lg:text-6xl text-3xl font-mono font-bold text-left pb-4">Code of Conduct</h1>
-                <div className="flex flex-col pt-20">
+            <h1 className="lg:text-6xl text-3xl font-mono font-bold text-left pb-10">Code of Conduct</h1>
+            <div className="relative grid grid-cols-6  gap-10">
+                <div className="flex flex-col p-10 col-span-3  border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4 ease-linear ">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No plagiarism or re-using of past work</h2>
                     <div className="basis-1/2 flex justify-center items-center">
                         <p className="font-semibold text-gray-600">
@@ -17,7 +17,7 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col pt-20">
+                <div className="flex flex-col p-10 col-span-3 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500 ">No discrimination</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -45,7 +45,7 @@ function CodeOfConduct() {
 
                     </div>
                 </div>
-                <div className="flex flex-col pt-20">
+                <div className="flex flex-col p-10 col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No harassment</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -53,7 +53,7 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col pt-20">
+                <div className="flex flex-col p-10  col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No recording without consent</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -65,7 +65,7 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col pt-20">
+                <div className="flex flex-col p-10  col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">Intellectual Property</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -73,7 +73,7 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col pt-20">
+                <div className="flex flex-col p-10  col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-pink-500 text-left pb-4">Always report</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
