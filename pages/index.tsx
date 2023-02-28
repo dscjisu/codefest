@@ -102,8 +102,8 @@ const Home = ({ Speakers, Organisations, Faqs, Partner, Organisers }: IProps) =>
         <Organisation organisationData={Organisations} />
         <Speaker speakerData={Speakers} />
         <CommunityPartner partnerData={Partner} />
-        <Faq FaqsData={Faqs} />
         <CodeOfConduct />
+        <Faq FaqsData={Faqs} />
         {/* <SeeYou /> */}
       </main>
     </>

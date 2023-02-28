@@ -3,9 +3,9 @@
 
 function Devfolio() {
     return (
-        <div className="!bg-black">
+        <div className="!bg-black rounded-2xl">
             <div
-                className="apply-button rounded-2xl !bg-black"
+                className="apply-button  !bg-black"
                 data-hackathon-slug="codefest2023"
                 data-button-theme="dark"
             // style="height: 44px; width: 312px"

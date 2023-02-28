@@ -2,10 +2,10 @@
 function CodeOfConduct() {
 
     return (
-        <section id="CodeofConduct" className="container mx-auto lg:p-10 p-2 py-20">
-            <h1 className="lg:text-6xl text-3xl font-mono font-bold text-left pb-10">Code of Conduct</h1>
-            <div className="relative grid grid-cols-6  gap-10">
-                <div className="flex flex-col p-10 col-span-3  border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4 ease-linear ">
+        <section id="CodeofConduct" className="container mx-auto lg:p-10 p-2 lg:py-5">
+            <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center lg:pb-10 pb-2">Code of Conduct</h1>
+            <div className="relative grid lg:grid-cols-6 lg:p-0  gap-10">
+                <div className="flex flex-col p-10 lg:col-span-3  border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4 ease-linear ">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No plagiarism or re-using of past work</h2>
                     <div className="basis-1/2 flex justify-center items-center">
                         <p className="font-semibold text-gray-600">
@@ -17,13 +17,13 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col p-10 col-span-3 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
+                <div className="flex flex-col p-10 lg:col-span-3  border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500 ">No discrimination</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
                             Hackathons hosted on Devfolio are dedicated to providing a safe and comfortable environment and harassment-free experience for everyone. No discrimination, on the basis of the following, shall be tolerated:
                         </p>
-                        <div className="text-start font-semibold text-gray-500 p-10">
+                        <div className="text-start font-semibold text-gray-500 pl-5">
                             <ul className="list-disc">
                                 <li>gender</li>
                                 <li>gender identity and expression</li>
@@ -45,7 +45,7 @@ function CodeOfConduct() {
 
                     </div>
                 </div>
-                <div className="flex flex-col p-10 col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
+                <div className="flex flex-col p-10 lg:col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No harassment</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -53,7 +53,7 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col p-10  col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
+                <div className="flex flex-col p-10  lg:col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No recording without consent</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -65,7 +65,7 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col p-10  col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
+                <div className="flex flex-col p-10  lg:col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">Intellectual Property</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
@@ -73,8 +73,8 @@ function CodeOfConduct() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col p-10  col-span-2 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
-                    <h2 className="text-xl font-mono font-bold text-pink-500 text-left pb-4">Always report</h2>
+                <div className="flex flex-col p-10  lg:col-span-6 border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4  ease-linear">
+                    <h2 className="text-xl font-mono font-bold text-pink-500 text-center pb-4">Always report</h2>
                     <div className="basis-1/2 flex flex-col ">
                         <p className="font-semibold text-gray-600">
                             If you notice any violation of this Code of Conduct or find otherwise suspicious behavior or have any concerns, please contact a member of the hackathon organizing committee immediately.
