@@ -1,5 +1,32 @@
-[{
+[
+  {
     "name": "IndiGG",
     "image": "/communitypartner/indigg.png",
     "link": "https://indi.gg/"
-}]
+  },
+  {
+    "name": "GDSC NiT",
+    "image": "/communitypartner/gdscnit.png",
+    "link": "https://gdsc.community.dev/narula-institute-of-technology-agarpara/"
+  },
+  {
+    "name": "codeforcommunity",
+    "image": "/communitypartner/codeforcommunity.png",
+    "link": "https://twitter.com/abbhishekstwt"
+  },
+  {
+    "name": "Devorld",
+    "image": "/communitypartner/Devorld.png",
+    "link": "https://www.linkedin.com/in/harshavardhan-bajoria"
+  },
+  {
+    "name": "DeveLovers",
+    "image": "/communitypartner/DeveLovers.jpg",
+    "link": "https://linktr.ee/develovers"
+  },
+  {
+    "name": "Guru Nanak Institute of Technology - Kolkata",
+    "image": "/communitypartner/GNIT.jpg",
+    "link": "https://gdsc.community.dev/guru-nanak-institute-of-technology-kolkata/"
+  }
+]
