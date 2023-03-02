@@ -19,7 +19,7 @@ function Title() {
                                     <Image className="rounded-lg bg-cover"
                                         src={item.image}
                                         alt={item.name}
-                                        width={200} height={250} />
+                                        width={300} height={250} />
                                 </Link>
 
                             </div>

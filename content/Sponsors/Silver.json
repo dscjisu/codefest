@@ -1,5 +1,12 @@
-[{
+[
+  {
     "name": "JetBrains",
     "link": "https://www.jetbrains.com/",
     "image": "/sponsor/silver/jetBrains.jpg"
-}]
+  },
+  {
+    "name": "Microsoft",
+    "link": "https://www.microsoft.com/",
+    "image": "/sponsor/silver/mlsa.jpeg"
+  }
+]

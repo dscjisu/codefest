@@ -12,7 +12,7 @@ function Silver() {
             >
                 SILVER SPONSORS
             </h1>
-            <div className="grid lg:grid-cols-1 px-10 gap-10">
+            <div className="grid lg:grid-cols-2 px-10 gap-10">
                 {
                     SilverSponsor.map((item, index) => {
                         return (
@@ -21,7 +21,7 @@ function Silver() {
                                     <Image className="rounded-lg bg-cover"
                                         src={item.image}
                                         alt={item.name}
-                                        width={100} height={150} />
+                                        width={150} height={150} />
                                 </Link>
 
                             </div>

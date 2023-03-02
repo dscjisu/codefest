@@ -1,5 +1,7 @@
-[{
-    "name": "School of Computer Science JIS University",
-    "link": "https://www.jisuniversity.ac.in/",
-    "image": "/organisation/jisuniversity.jpg"
-}]
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/",
+    "image": "/sponsor/title/github.png"
+  }
+]

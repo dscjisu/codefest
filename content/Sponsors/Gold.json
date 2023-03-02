@@ -1,10 +1,22 @@
-[{
+[
+  {
     "name": "GiveMyCertificate",
     "link": "https://givemycertificate.com/",
     "image": "/sponsor/gold/givemycertificate.png"
-},
-{
+  },
+  {
     "name": "Digital Ocean",
     "link": "https://www.digitalocean.com/",
     "image": "/sponsor/gold/digitalocean.png"
-}]
+  },
+  {
+    "name": "Gen.xyz",
+    "link": "https://gen.xyz/",
+    "image": "/sponsor/gold/genxyz.png"
+  },
+  {
+    "name": "Taskade",
+    "link": "https://taskade.com/",
+    "image": "/sponsor/gold/taskade.png"
+  }
+]

@@ -11,7 +11,7 @@ function Gold() {
             >
                 GOLD SPONSORS
             </h1>
-            <div className="grid lg:grid-cols-2 px-10 gap-2 place-content-center justify-items-center">
+            <div className="grid lg:grid-cols-4 px-10 gap-2 place-content-center justify-items-center">
                 {
                     GoldSponsor.map((item, index) => {
                         return (
@@ -20,7 +20,7 @@ function Gold() {
                                     <Image className="rounded-lg bg-cover"
                                         src={item.image}
                                         alt={item.name}
-                                        width={100} height={50} />
+                                        width={150} height={100} />
                                 </Link>
                             </div>
                         )
