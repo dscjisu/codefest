@@ -9,7 +9,7 @@ function Diamond() {
             >
                 DIAMOND SPONSORS
             </h1>
-            <div className="grid lg:grid-cols-2 px-10 gap-10">
+            <div className="grid lg:grid-cols-3 px-10 gap-10">
                 {
                     DiamondSponsor.map((item, index) => {
                         return (

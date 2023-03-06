@@ -1,11 +1,17 @@
-[{
-        "name": "Devfolio",
-        "link": "https://devfolio.co/",
-        "image": "/sponsor/diamond/Devfolio_Logo-White@2x.png"
-    },
-    {
-        "name": "Polygon",
-        "link": "https://polygon.technology/",
-        "image": "/sponsor/diamond/Polygon_Logo-White@2x.png"
-    }
+[
+  {
+    "name": "Devfolio",
+    "link": "https://devfolio.co/",
+    "image": "/sponsor/diamond/Devfolio_Logo-White@2x.png"
+  },
+  {
+    "name": "Polygon",
+    "link": "https://polygon.technology/",
+    "image": "/sponsor/diamond/Polygon_Logo-White@2x.png"
+  },
+  {
+    "name": "Deepfence",
+    "link": "https://deepfence.io/",
+    "image": "/sponsor/diamond/deepfence.svg"
+  }
 ]
