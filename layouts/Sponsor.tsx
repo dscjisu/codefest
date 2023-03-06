@@ -22,7 +22,7 @@ function Sponsor() {
                         <Silver />
                     </div>
                     <div className="pb-10" />
-                    <div className="flex justify-center items-center p-5">
+                    {/* <div className="flex justify-center items-center p-5">
                         <button>
                             <a href="https://drive.google.com/file/d/1aiSKn4-GYlbp99a5vDLVWCbp9qC31pyz/view" target="_blank" className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full" rel="noreferrer">
                                 Sponsorship Deck
@@ -36,7 +36,7 @@ function Sponsor() {
                                 Mail
                             </span>
                         </a>
-                    </p>
+                    </p> */}
                 </div>
                 <div
                     className="lg:pb-20 pb-2"
