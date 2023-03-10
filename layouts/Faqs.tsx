@@ -6,9 +6,9 @@ function Faq({ FaqsData }: any) {
 
         <section id="Faq" className="container mx-auto lg:p-10 p-2 py-20">
             <div className="relative flex flex-col px-5">
-                <h1 className="lg:text-6xl text-3xl font-mono font-bold text-left pb-4">FAQs</h1>
+                <h1 className="lg:text-6xl text-3xl font-gochi font-bold text-left pb-4">FAQs</h1>
                 <div className="flex flex-col">
-                    <div className="basis-1/2 flex justify-center items-center pb-5">
+                    <div className="basis-1/2 flex justify-center items-center pb-5 text-xl">
                         <p className="font-semibold text-gray-600">
                             We know that many of you would be first-time
                             <span className="text-pink-800 capitalize"> hackers </span>  here and there must be many questions
@@ -16,7 +16,7 @@ function Faq({ FaqsData }: any) {
                             Go through these <span className="text-pink-800 capitalize"> FAQs </span>  and you&apos;ll get most of your queries solved.
                         </p>
                     </div>
-                    <div className="flex flex-col justify-center items-center lg:p-10 p-2">
+                    <div className="flex flex-col justify-center items-center lg:p-10 p-2 text-xl">
                         {
                             FaqsData.map((faq: any, index: any) => (
                                 <FaqsCard

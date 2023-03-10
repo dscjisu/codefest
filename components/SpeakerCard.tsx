@@ -11,14 +11,15 @@ interface SpeakerData {
 
 function SpeakerCard({ name, subtitle, bio, image, tags }: SpeakerData) {
     return (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg lg:p-10  p-5">
+        <div className=" rounded overflow-hidden shadow-lg lg:p-10  p-5">
             <div className="flex justify-center items-center">
-                <Image className="rounded-full"
+                <Image className="!rounded-full "
                     src={image}
-                    alt="Sunset in the mountains"
-                    width={250} height={250} />
+                    alt={name}
+                    width={200} height={200}
+                />
             </div>
-            <div className="lg:px-6 py-4">
+            <div className="lg:px-2 py-4">
                 <div className="font-bold text-xl mb-2 text-center">{name}</div>
                 <p className="text-pink-500 text-base text-clip text-center">
                     {subtitle}

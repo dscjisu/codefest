@@ -4,10 +4,10 @@ function About() {
     return (
         <section id="About" className="container mx-auto lg:p-10 p-2 py-20">
             <div className="relative flex flex-col px-5">
-                <h1 className="lg:text-6xl text-3xl font-mono font-bold text-left pb-4">About</h1>
+                <h1 className="lg:text-6xl text-3xl font-gochi font-bold text-left pb-4">About</h1>
                 <div className="flex lg:flex-row flex-col">
-                    <div className="basis-1/2 flex justify-center items-center">
-                        <p className="font-semibold text-gray-600">
+                    <div className="basis-1/2 flex justify-center items-center text-xl">
+                        <p className="font-semibold text-gray-600 text-xl">
                             CodeFest is a 5-days Tech Festival organized by the
                             <span className="text-gray-400 text-lg"> Computer Science and Engineering Department of JIS University Kolkata</span>.
                             It is a platform for students to showcase their technical skills and creativity.

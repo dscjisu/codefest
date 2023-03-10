@@ -3,8 +3,8 @@ function CodeOfConduct() {
 
     return (
         <section id="CodeofConduct" className="container mx-auto lg:p-10 p-2 lg:py-5">
-            <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center lg:pb-10 pb-2">Code of Conduct</h1>
-            <div className="relative grid lg:grid-cols-6 lg:p-0  gap-10">
+            <h1 className="lg:text-6xl text-3xl font-gochi font-bold text-center lg:pb-10 pb-2">Code of Conduct</h1>
+            <div className="relative grid lg:grid-cols-6 lg:p-0  gap-10 text-xl">
                 <div className="flex flex-col p-10 lg:col-span-3  border-2  rounded-lg border-yellow-300 shadow-xl hover:shadow-yellow-300 border-spacing-4 ease-linear ">
                     <h2 className="text-xl font-mono font-bold text-left pb-4 text-pink-500">No plagiarism or re-using of past work</h2>
                     <div className="basis-1/2 flex justify-center items-center">

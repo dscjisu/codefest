@@ -9,6 +9,8 @@ import Organisation from '../layouts/Organisation';
 import Organiser from '../layouts/Organiser';
 import Speaker from '../layouts/Speaker';
 import Sponsors from '../layouts/Sponsor';
+import Stats from '../layouts/Stats';
+import TechSavvy from '../layouts/TechSavvy';
 // content 
 import CommunityPartnerData from './../content/Community Partner.json';
 import FaqsData from './../content/faqs.json';
@@ -94,8 +96,10 @@ const Home = ({ Speakers, Organisations, Faqs, Partner, Organisers }: IProps) =>
     <>
       <main>
         <Landing />
-        <Countdown />
+        {/* <Countdown /> */}
+        <Stats />
         <About />
+        <TechSavvy />
         {/* <Timeline /> */}
         <Sponsors />
         <Organiser organiserData={Organisers} />

@@ -22,7 +22,7 @@ function Landing() {
                                 </p>
                                 <span className="px-2">
                                     <span className="font-bold">Theme:</span> <span className="font-thin"> No Restriction</span>
-                                    <ul className="ml-5 text-gray-400 pt-5">
+                                    <ul className="ml-5 text-gray-400 pt-5 text-xl">
                                         <li className="font-thin list-disc">Prizes worth : <span className="font-bold">9+ Lakhs</span></li>
                                         <li className="font-thin list-disc">Hackathon : <span className="font-bold">3+ Theme</span></li>
                                         <li className="font-thin list-disc">Workshop : <span className="font-bold">5+ Tools</span></li>

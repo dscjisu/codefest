@@ -1,6 +1,7 @@
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
 import Devfolio from './Devfolio'
 
@@ -47,15 +48,17 @@ function NavBar() {
             </div>
             <div className="lg:px-10 px-2.5  py-6  container mx-auto min-w-screen">
                 <nav className="flex h-9 items-center justify-between " aria-label="Global">
-                    <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                        <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">CodeFest 2023</span>
-                            <Image src="/Codefest.png"
-                                width={150} height={150}
-                                alt="codefest-logo"
-                            />
-                        </a>
-                    </div>
+                    <Link legacyBehavior href={"/"}>
+                        <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
+                            <a href="#" className="-m-1.5 p-1.5">
+                                <span className="sr-only">CodeFest 2023</span>
+                                <Image src="/Codefest.png"
+                                    width={150} height={150}
+                                    alt="codefest-logo"
+                                />
+                            </a>
+                        </div>
+                    </Link>
                     <div className="flex lg:hidden  justify-center">
                         <button
                             type="button"

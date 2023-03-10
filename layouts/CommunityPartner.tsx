@@ -7,7 +7,7 @@ function CommunityPartner({ partnerData }: any) {
     return (
         <section id="CommunityPartner" className="container mx-auto lg:p-10 p-2">
             <div className="relative flex flex-col px-5">
-                <h1 className="lg:text-6xl text-3xl font-mono font-bold text-center pb-4">Community Partners</h1>
+                <h1 className="lg:text-6xl text-3xl font-gochi font-bold text-center pb-4">Community Partners</h1>
                 <div className="pb-10" />
                 <div
                     className={`grid ${partnerData.length >= 5 ? "lg:grid-cols-5 md:grid-cols-3 grid-cols-1 " : `lg:grid-cols-${partnerData.length} `} 
