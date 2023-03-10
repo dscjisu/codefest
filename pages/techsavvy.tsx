@@ -37,7 +37,7 @@ function techsavvy({ Speakers }: { Speakers: ISpeakerdata[] }) {
                 </div>
 
                 <div className="pt-60">
-                    <h1 className="lg:text-6xl text-3xl  font-bold text-center pb-4 font-lato text-yellow-500">Register</h1>
+                    <h1 className="lg:text-6xl text-3xl  font-bold text-center pb-4 font-gochi text-yellow-500">Register</h1>
                     <p className="font-semibold text-gray-600  lg:px-40 lg:text-center text-xl">At TechSavvy, you will have the chance to connect with like-minded professionals, expand your knowledge, and gain valuable insights into the future of technology. So, don&apos;t miss out on this fantastic opportunity to learn from the best and stay ahead of the curve in the ever-changing world of tech. Join us at CodeFest 2023 and be a part of the future of tech!</p>
                     <div className="basis-1/2  flex justify-center pt-20 items-center ">
                         <iframe

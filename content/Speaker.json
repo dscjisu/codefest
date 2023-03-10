@@ -7,6 +7,20 @@
     "tags": ["docker", "kubernetes"]
   },
   {
+    "name": "Arkaprabha Chakraborty",
+    "subtitle": "Open Source Enthusiast",
+    "bio": "Cyber security (Threat and Vulnerability Management) intern at PwC India | Google Summer of Code 2022 contributor @parameter digger",
+    "image": "/speaker/Arkaprabha.jpg",
+    "tags": ["Cyber security"]
+  },
+  {
+    "name": "Manish Kr Barnwal",
+    "subtitle": "GitHub Campus Expert",
+    "bio": "Microsoft Engage Mentee'22 | Github Campus Expert 🚩 | LFX Mentorship'21 @OpenDaylight | Lead Organizer @Hack4Bengal | Gold Microsoft LSA 💛",
+    "image": "/speaker/manish.png",
+    "tags": ["Open Source", "github"]
+  },
+  {
     "name": "Abhishek Kushwaha",
     "subtitle": "Web Developer",
     "bio": "@google DSC Lead | @scaler Content Writer",
