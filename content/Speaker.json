@@ -1,12 +1,5 @@
 [
   {
-    "name": "Hrittik Roy",
-    "subtitle": "Devops Guy",
-    "bio": "Github Campus Expert | @google Venkat Scholar | @digitalocean Navigator | Gold @microsoft Learn Student Ambassador",
-    "image": "https://avatars.githubusercontent.com/u/67012359?v=4",
-    "tags": ["docker", "kubernetes"]
-  },
-  {
     "name": "Arkaprabha Chakraborty",
     "subtitle": "Open Source Enthusiast",
     "bio": "Cyber security (Threat and Vulnerability Management) intern at PwC India | Google Summer of Code 2022 contributor @parameter digger",
@@ -16,15 +9,29 @@
   {
     "name": "Manish Kr Barnwal",
     "subtitle": "GitHub Campus Expert",
-    "bio": "Microsoft Engage Mentee'22 | Github Campus Expert 🚩 | LFX Mentorship'21 @OpenDaylight | Lead Organizer @Hack4Bengal | Gold Microsoft LSA 💛",
+    "bio": "Microsoft Engage Mentee'22 | Github Campus Expert 🚩 | LFX Mentorship'21 @OpenDaylight",
     "image": "/speaker/manish.png",
     "tags": ["Open Source", "github"]
   },
   {
     "name": "Abhishek Kushwaha",
     "subtitle": "Web Developer",
-    "bio": "@google DSC Lead | @scaler Content Writer",
+    "bio": "Google DSC Lead @dscjisu | @Scaler Content Writer | Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/86338762?v=4",
-    "tags": ["next.js", "Python"]
+    "tags": ["next.js", "development"]
+  },
+  {
+    "name": "Soumyadip Chowdhury",
+    "subtitle": "Software Engineer @RedHat ",
+    "bio": "Software Engineer @RedHat 👨🏻‍💻 Ex-HoiChoi, Bajaj Finserv Health",
+    "image": "/speaker/Soumyadip.jpeg",
+    "tags": ["Backend", "Python"]
+  },
+  {
+    "name": "Shubhayu Majumdar",
+    "subtitle": "Ml Researcher Intern @IIT Kharagpur",
+    "bio": "ML Research Intern at IIT KGP | Auth0 Ambassador",
+    "image": "/speaker/Shubhayu.jpeg",
+    "tags": ["ML", "Python"]
   }
 ]
