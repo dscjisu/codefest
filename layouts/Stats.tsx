@@ -8,7 +8,7 @@ function Stats() {
                 <div className='grid grid-cols-4 gap-4 lg:px-36 justify-items-center place-content-center'>
                     <div className='shadow-2xl shadow-pink-600 flex flex-col  justify-center items-center font-mono text-pink-600 rounded-lg bg-yellow-400 lg:w-60 p-1 md:w-20  min-w-full'>
                         <div>
-                            <h1 className='lg:text-4xl font-bold'>600+</h1>
+                            <h1 className='lg:text-4xl font-bold'>700+</h1>
                         </div>
                         <div>
                             <h1 className='lg:text-2xl text-xs font-bold text-black'>Registration</h1>
@@ -16,10 +16,10 @@ function Stats() {
                     </div>
                     <div className='shadow-2xl shadow-pink-600 flex flex-col justify-center items-center font-mono text-pink-600 rounded-lg bg-yellow-400 lg:w-60 p-1  md:w-20   min-w-full'>
                         <div>
-                            <h1 className='lg:text-4xl font-bold'>300+</h1>
+                            <h1 className='lg:text-4xl font-bold'>400+</h1>
                         </div>
                         <div>
-                            <h1 className='lg:text-2xl text-xs font-bold text-black'>Attendees</h1>
+                            <h1 className='lg:text-2xl text-xs font-bold text-black'>Participants</h1>
                         </div>
                     </div>
                     <div className='shadow-2xl shadow-pink-600 flex flex-col justify-center items-center font-mono text-pink-600 rounded-lg bg-yellow-400 lg:w-60 p-1  min-w-full  md:w-20 '>
