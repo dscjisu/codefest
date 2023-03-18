@@ -12,7 +12,7 @@ function Organisation({ organisationData }: any) {
                     contributions.
                 </p>
                 <div className="pb-10" />
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 lg:px-80 justify-items-center content-center gap-2">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 lg:px-80 justify-items-center content-center gap-2">
                     {
                         organisationData.map((Organisation: any, index: number) => {
                             return (

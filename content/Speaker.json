@@ -15,7 +15,7 @@
   },
   {
     "name": "Abhishek Kushwaha",
-    "subtitle": "Web Developer",
+    "subtitle": "Developer",
     "bio": "Google DSC Lead @dscjisu | @Scaler Content Writer | Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/86338762?v=4",
     "tags": ["next.js", "development"]
@@ -33,5 +33,12 @@
     "bio": "ML Research Intern at IIT KGP | Auth0 Ambassador",
     "image": "/speaker/Shubhayu.jpeg",
     "tags": ["ML", "Python"]
+  },
+  {
+    "name": "Chandan Pandey",
+    "subtitle": "Web developer",
+    "bio": "Web Developer ModernAttire | Tech Lead @gdscjisu | CSE UG 🎓 || MERN Developer",
+    "image": "/speaker/chandan.jpeg",
+    "tags": ["digital ocean", "cloud"]
   }
 ]

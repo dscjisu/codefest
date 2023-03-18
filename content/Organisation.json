@@ -8,5 +8,10 @@
     "name": "Google Developer Student Clubs JIS University",
     "image": "/organisation/dscjisu.png",
     "link": "https://www.dscjisu.in"
+  },
+  {
+    "name": "Microsoft Student Learn Ambassadors JIS University",
+    "link": "https://studentambassadors.microsoft.com/en-US/",
+    "image": "/sponsor/silver/mlsa.jpeg"
   }
 ]
